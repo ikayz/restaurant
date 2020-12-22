@@ -2,8 +2,10 @@ public class Main {
     public static void main(String[] args) {
         String[] restaurants = new String[4];
 
+        // Assigning values to the test array
         restaurants = new String[]{"KFC", "Hungry Lion", "Nandos", "Eaterly"};
 
+        // Iterating through the array
         for(String name:restaurants) {
             System.out.println(name);
         }
