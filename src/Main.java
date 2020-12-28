@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         String[] restaurants = new String[4];
@@ -21,5 +23,14 @@ public class Main {
         KFC.variation = "Chicken";
 
         System.out.println(KFC.location);
+
+        //Arraylist
+        ArrayList<String> smallRestaurants = new ArrayList<>();
+
+        smallRestaurants.add("Chicken Inn");
+        smallRestaurants.add("Sun chicken");
+        smallRestaurants.add("Hen bulk");
+
+        System.out.println("The small chicken restaurants are: " + smallRestaurants);
     }
 }
