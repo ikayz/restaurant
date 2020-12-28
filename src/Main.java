@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println(KFC.location);
 
-        //Arraylist
+        // Arraylist
         ArrayList<String> smallRestaurants = new ArrayList<>();
 
         smallRestaurants.add("Chicken Inn");
@@ -32,5 +32,19 @@ public class Main {
         smallRestaurants.add("Hen bulk");
 
         System.out.println("The small chicken restaurants are: " + smallRestaurants);
+
+        // Hashset
+        HashSet<String> chainStores = new HashSet<String>();
+
+        chainStores.add("Pick n Pay");
+        chainStores.add("Shoprite");
+        chainStores.add("Choppies");
+
+        System.out.println("These are the popular chain stores available: " + chainStores);
+
+
+        // HashMap
+        Map<String, String> storeLocations = new HashMap<String, String>();
+        storeLocations.put("Kabulonga", "Lusaka");
     }
 }
