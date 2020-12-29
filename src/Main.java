@@ -46,5 +46,8 @@ public class Main {
         // HashMap
         Map<String, String> storeLocations = new HashMap<String, String>();
         storeLocations.put("Kabulonga", "Lusaka");
+
+        // Array
+        String[] takeAways = new String[3];
     }
 }
